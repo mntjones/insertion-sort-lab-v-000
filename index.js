@@ -18,5 +18,11 @@ function findMinAndRemove(array){
 }
 
 function insertionSort(array){
-
+  let nextMin;
+  let sorted = [];
+  
+  while (array.length !== 0) {
+    nextMin = findMinAndRemove(array);
+    sorted.push(nextMin)
+  }
 }
