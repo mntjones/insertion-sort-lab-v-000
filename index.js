@@ -23,6 +23,6 @@ function insertionSort(array){
   
   while (array.length !== 0) {
     nextMin = findMinAndRemove(array);
-    sorted.push(nextMin)
+    sorted.push(nextMin);
   }
 }
