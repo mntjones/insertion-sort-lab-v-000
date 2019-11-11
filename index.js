@@ -6,11 +6,12 @@ function findMinAndRemove(array){
   
   // loop through elements in array
   for (let i=0; i < array.length; i++) {
-    let currItem = array[i];
     
-    if (arr[])
+    if (array[i] < min) {
+      min = array[i];
+      minIndex = i;
+    }
   }
-  
 
 }
 
