@@ -25,4 +25,5 @@ function insertionSort(array){
     nextMin = findMinAndRemove(array);
     sorted.push(nextMin);
   }
+  return sorted;
 }
